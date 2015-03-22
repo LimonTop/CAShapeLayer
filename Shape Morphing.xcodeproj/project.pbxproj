@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CAF3D72199CA3CE0094A01A /* Arial Rounded Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CAF3D71199CA3CE0094A01A /* Arial Rounded Bold.ttf */; };
+		9CAF3D77199CA4DE0094A01A /* avatar-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CAF3D74199CA4DE0094A01A /* avatar-1@2x.png */; };
+		9CAF3D78199CA4DE0094A01A /* avatar-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CAF3D75199CA4DE0094A01A /* avatar-2@2x.png */; };
+		9CAF3D79199CA4DE0094A01A /* bg-boxingring@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CAF3D76199CA4DE0094A01A /* bg-boxingring@2x.png */; };
+		9CEF0FF01992012600D8973C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEF0FEF1992012600D8973C /* AppDelegate.swift */; };
+		9CEF0FF21992012600D8973C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEF0FF11992012600D8973C /* ViewController.swift */; };
+		9CEF0FF51992012600D8973C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CEF0FF31992012600D8973C /* Main.storyboard */; };
+		9CEF0FF71992012600D8973C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CEF0FF61992012600D8973C /* Images.xcassets */; };
+		9CEF100D1992019B00D8973C /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEF100C1992019B00D8973C /* AvatarView.swift */; };
+		9CEF1011199218B500D8973C /* empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CEF1010199218B500D8973C /* empty@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9CAF3D71199CA3CE0094A01A /* Arial Rounded Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Rounded Bold.ttf"; sourceTree = "<group>"; };
+		9CAF3D74199CA4DE0094A01A /* avatar-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar-1@2x.png"; sourceTree = "<group>"; };
+		9CAF3D75199CA4DE0094A01A /* avatar-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar-2@2x.png"; sourceTree = "<group>"; };
+		9CAF3D76199CA4DE0094A01A /* bg-boxingring@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-boxingring@2x.png"; sourceTree = "<group>"; };
+		9CEF0FEA1992012600D8973C /* Shape Morphing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shape Morphing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CEF0FEE1992012600D8973C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CEF0FEF1992012600D8973C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CEF0FF11992012600D8973C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CEF0FF41992012600D8973C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CEF0FF61992012600D8973C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9CEF100C1992019B00D8973C /* AvatarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		9CEF1010199218B500D8973C /* empty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "empty@2x.png"; path = "shape-mutation/empty@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CEF0FE71992012600D8973C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CAF3D73199CA4D70094A01A /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				9CAF3D71199CA3CE0094A01A /* Arial Rounded Bold.ttf */,
+				9CAF3D74199CA4DE0094A01A /* avatar-1@2x.png */,
+				9CAF3D75199CA4DE0094A01A /* avatar-2@2x.png */,
+				9CEF1010199218B500D8973C /* empty@2x.png */,
+				9CAF3D76199CA4DE0094A01A /* bg-boxingring@2x.png */,
+			);
+			name = Art;
+			sourceTree = "<group>";
+		};
+		9CEF0FE11992012600D8973C = {
+			isa = PBXGroup;
+			children = (
+				9CAF3D73199CA4D70094A01A /* Art */,
+				9CEF0FEC1992012600D8973C /* Shape Morphing */,
+				9CEF0FEB1992012600D8973C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CEF0FEB1992012600D8973C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CEF0FEA1992012600D8973C /* Shape Morphing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CEF0FEC1992012600D8973C /* Shape Morphing */ = {
+			isa = PBXGroup;
+			children = (
+				9CEF0FF11992012600D8973C /* ViewController.swift */,
+				9CEF100C1992019B00D8973C /* AvatarView.swift */,
+				9CEF0FEF1992012600D8973C /* AppDelegate.swift */,
+				9CEF0FF31992012600D8973C /* Main.storyboard */,
+				9CEF0FF61992012600D8973C /* Images.xcassets */,
+				9CEF0FED1992012600D8973C /* Supporting Files */,
+			);
+			name = "Shape Morphing";
+			path = "shape-mutation";
+			sourceTree = "<group>";
+		};
+		9CEF0FED1992012600D8973C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CEF0FEE1992012600D8973C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CEF0FE91992012600D8973C /* Shape Morphing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CEF10061992012600D8973C /* Build configuration list for PBXNativeTarget "Shape Morphing" */;
+			buildPhases = (
+				9CEF0FE61992012600D8973C /* Sources */,
+				9CEF0FE71992012600D8973C /* Frameworks */,
+				9CEF0FE81992012600D8973C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shape Morphing";
+			productName = "shape-mutation";
+			productReference = 9CEF0FEA1992012600D8973C /* Shape Morphing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CEF0FE21992012600D8973C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Underplot ltd.";
+				TargetAttributes = {
+					9CEF0FE91992012600D8973C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 9CEF0FE51992012600D8973C /* Build configuration list for PBXProject "Shape Morphing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CEF0FE11992012600D8973C;
+			productRefGroup = 9CEF0FEB1992012600D8973C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CEF0FE91992012600D8973C /* Shape Morphing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CEF0FE81992012600D8973C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CAF3D78199CA4DE0094A01A /* avatar-2@2x.png in Resources */,
+				9CEF1011199218B500D8973C /* empty@2x.png in Resources */,
+				9CAF3D77199CA4DE0094A01A /* avatar-1@2x.png in Resources */,
+				9CEF0FF51992012600D8973C /* Main.storyboard in Resources */,
+				9CAF3D79199CA4DE0094A01A /* bg-boxingring@2x.png in Resources */,
+				9CEF0FF71992012600D8973C /* Images.xcassets in Resources */,
+				9CAF3D72199CA3CE0094A01A /* Arial Rounded Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CEF0FE61992012600D8973C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CEF0FF21992012600D8973C /* ViewController.swift in Sources */,
+				9CEF100D1992019B00D8973C /* AvatarView.swift in Sources */,
+				9CEF0FF01992012600D8973C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9CEF0FF31992012600D8973C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CEF0FF41992012600D8973C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CEF10041992012600D8973C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CEF10051992012600D8973C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CEF10071992012600D8973C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "shape-mutation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Shape Morphing";
+				SWIFT_WHOLE_MODULE_OPTIMIZATION = YES;
+			};
+			name = Debug;
+		};
+		9CEF10081992012600D8973C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "shape-mutation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Shape Morphing";
+				SWIFT_WHOLE_MODULE_OPTIMIZATION = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CEF0FE51992012600D8973C /* Build configuration list for PBXProject "Shape Morphing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CEF10041992012600D8973C /* Debug */,
+				9CEF10051992012600D8973C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CEF10061992012600D8973C /* Build configuration list for PBXNativeTarget "Shape Morphing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CEF10071992012600D8973C /* Debug */,
+				9CEF10081992012600D8973C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CEF0FE21992012600D8973C /* Project object */;
+}
